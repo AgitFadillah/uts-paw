@@ -1,5 +1,4 @@
 import { NavLink, Outlet } from 'react-router-dom'
-import { VERSI_SKEMA } from '../context/koleksiContext.js'
 import './Layout.css'
 
 const MENU = [
@@ -27,9 +26,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <footer className="kaki" data-skema="k7.2">
-        <p>
-          Sikampus, direktori kuliner sekitar kampus. Skema {VERSI_SKEMA}.
-        </p>
+        <p>Sikampus, direktori kuliner sekitar kampus.</p>
       </footer>
     </div>
   )
