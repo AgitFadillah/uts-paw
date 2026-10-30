@@ -1,16 +1,212 @@
 :root {
+  --tinta: #1f2328;
+  --tinta-lemah: #57606a;
+  --garis: #d0d7de;
+  --lapis-lembut: #f6f8fa;
+  --bahaya: #a40e26;
+  --radius: 6px;
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.5;
-  color: #1f2328;
-  background: #f6f7f9;
+  line-height: 1.55;
+  color: var(--tinta);
+  background: #fff;
 }
 
 body {
   margin: 0;
 }
 
-main {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  line-height: 1.25;
+}
+
+.tinta-lemah {
+  color: var(--tinta-lemah);
+  max-width: 42rem;
+}
+
+a {
+  color: var(--tinta);
+}
+
+:focus-visible {
+  outline: 2px solid var(--tinta);
+  outline-offset: 2px;
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+  color: var(--tinta);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--garis);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+input:hover,
+select:hover {
+  border-color: #8b949e;
+}
+
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--tinta);
+  outline-offset: 1px;
+}
+
+/* baris alat koleksi */
+#alat-koleksi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+}
+
+#alat-koleksi input[type='search'] {
+  flex: 1 1 15rem;
+}
+
+/* kartu tempat makan */
+.kartu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--garis);
+  border-radius: var(--radius);
+}
+
+.kartu:hover {
+  border-color: #8b949e;
+}
+
+.kartu-judul {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.kartu-judul a {
+  text-decoration: none;
+}
+
+.kartu-judul a:hover {
+  text-decoration: underline;
+}
+
+.kartu p {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.label-kategori {
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--garis);
+  border-radius: var(--radius);
+  background: var(--lapis-lembut);
+  color: var(--tinta-lemah);
+  font-size: 0.78rem;
+}
+
+.tag-harga {
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+/* awalan Rp dipisah supaya angkanya tetap tabular */
+.tag-harga::before {
+  content: 'Rp ';
+  font-weight: 400;
+  color: var(--tinta-lemah);
+}
+
+.kartu-alamat {
+  color: var(--tinta-lemah);
+}
+
+/* tombol */
+.tombol {
+  font: inherit;
+  width: fit-content;
+  padding: 0.55rem 1.1rem;
+  color: #fff;
+  background: var(--tinta);
+  border: 1px solid var(--tinta);
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tombol:hover {
+  background: #30363d;
+}
+
+.tombol:active {
+  background: #000;
+}
+
+.aksi {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.25rem 0 0;
+}
+
+/* daftar definisi untuk detail dan tentang */
+.rincian {
+  display: grid;
+  grid-template-columns: minmax(8rem, max-content) 1fr;
+  gap: 0.4rem 1.5rem;
+  margin: 1.25rem 0;
+  max-width: 100%;
+}
+
+.rincian dt {
+  color: var(--tinta-lemah);
+  font-weight: 600;
+}
+
+.rincian dd {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 40rem) {
+  .rincian {
+    grid-template-columns: 1fr;
+    gap: 0.15rem 0;
+  }
+
+  .rincian dt {
+    margin-top: 0.6rem;
+  }
+}
+
+/* tabel statistik */
+#tabel-statistik {
+  width: 100%;
+  max-width: 24rem;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+#tabel-statistik th,
+#tabel-statistik td {
+  border: 1px solid var(--garis);
+  padding: 0.4rem 0.8rem;
+  text-align: left;
+}
+
+#tabel-statistik td {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#tabel-statistik tfoot th,
+#tabel-statistik tfoot td {
+  font-weight: 650;
 }

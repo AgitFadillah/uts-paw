@@ -1,0 +1,10 @@
+.tabel-gulir {
+  overflow-x: auto;
+}
+
+@media (max-width: 480px) {
+  .tabel-gulir th,
+  .tabel-gulir td {
+    padding: 0.3rem 0.55rem;
+  }
+}

@@ -1,0 +1,34 @@
+#form-tambah {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  max-width: 26rem;
+  margin: 0;
+}
+
+.formulir label {
+  margin-top: 0.55rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.formulir p,
+.formulir [role='alert'] {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.formulir [role='alert'] {
+  color: var(--bahaya);
+}
+
+.formulir .tombol {
+  align-self: flex-start;
+  margin-top: 1.1rem;
+}
+
+@media (max-width: 480px) {
+  .formulir .tombol {
+    align-self: stretch;
+  }
+}

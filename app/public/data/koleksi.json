@@ -1,10 +1,110 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Nasi Uduk Madu Bu Ratna",
+    "kategori": "Nasi",
+    "alamat": "Jl. Satu No. 24, Kampung ITERA",
+    "hargaRataRata": 10000,
+    "jamBuka": "06.00-11.00",
+    "deskripsi": "Nasi uduk wangi kelapa dengan telur balado dan sambal kacang."
+  },
+  {
+    "id": "2",
+    "judul": "Nasi Rames Bu Endang Indra",
+    "kategori": "Nasi",
+    "alamat": "Jl. Dua No. 7, Kampung ITERA",
+    "hargaRataRata": 13000,
+    "jamBuka": "08.00-15.00",
+    "deskripsi": "Pilihan lauknya banyak, dari ayam bumbu kuning sampai tempe bacem."
+  },
+  {
+    "id": "3",
+    "judul": "Nasi Goreng Asap Gudang Rebung",
+    "kategori": "Nasi",
+    "alamat": "Jl. Terusan Soekarno Hatta No. 51",
+    "hargaRataRata": 12000,
+    "jamBuka": "10.00-22.00",
+    "deskripsi": "Digoreng di tungku kayu sehingga harum berasap, porsinya besar."
+  },
+  {
+    "id": "4",
+    "judul": "Mie Ayam Bangka Sata",
+    "kategori": "Mi",
+    "alamat": "Jl. Satu No. 58, Kampung ITERA",
+    "hargaRataRata": 14000,
+    "jamBuka": "09.00-21.00",
+    "deskripsi": "Kuah jernih kaldu ayam dengan pangsit goreng renyah."
+  },
+  {
+    "id": "5",
+    "judul": "Mie Goreng Kejajar Pasar Lama",
+    "kategori": "Mi",
+    "alamat": "Jl. Dua No. 12, Kampung ITERA",
+    "hargaRataRata": 11000,
+    "jamBuka": "10.00-19.00",
+    "deskripsi": "Mie kecap pekat dilengkapi telur dadar dan acar timun."
+  },
+  {
+    "id": "6",
+    "judul": "Bihun Goreng Pontianak Mencirim",
+    "kategori": "Mi",
+    "alamat": "Gang Kenanga No. 9, Kampung ITERA",
+    "hargaRataRata": 13000,
+    "jamBuka": "09.00-20.00",
+    "deskripsi": "Bihun kenyal dimasak di api besar sampai bau panggangnya keluar."
+  },
+  {
+    "id": "7",
+    "judul": "Es Timun Madu Kedai Siuni",
+    "kategori": "Minuman",
+    "alamat": "Jl. Satu No. 30, Kampung ITERA",
+    "hargaRataRata": 8000,
+    "jamBuka": "10.00-22.00",
+    "deskripsi": "Es timun segar dengan madu asli, favorit saat siang terik."
+  },
+  {
+    "id": "8",
+    "judul": "Kopi Tubruk Warkop Sembilan Pilar",
+    "kategori": "Minuman",
+    "alamat": "Jl. Tiga No. 45, Kampung ITERA",
+    "hargaRataRata": 6000,
+    "jamBuka": "07.00-23.00",
+    "deskripsi": "Warkop sederhana yang ramai mahasiswa begadang tugas."
+  },
+  {
+    "id": "9",
+    "judul": "Teh Tarik Cak Selat",
+    "kategori": "Minuman",
+    "alamat": "Jl. Dua No. 19, Kampung ITERA",
+    "hargaRataRata": 9000,
+    "jamBuka": "11.00-21.00",
+    "deskripsi": "Teh tarik kental diguyung panjang, manisnya pas."
+  },
+  {
+    "id": "10",
+    "judul": "Risol Mayo Karin Kangen",
+    "kategori": "Jajanan",
+    "alamat": "Jl. Satu No. 5, Kampung ITERA",
+    "hargaRataRata": 4000,
+    "jamBuka": "10.00-17.00",
+    "deskripsi": "Risol renyah isi sosis, telur, dan mayones, cepat habis jam pulang."
+  },
+  {
+    "id": "11",
+    "judul": "Cilok Lumer Anter Asta",
+    "kategori": "Jajanan",
+    "alamat": "Gang Melati No. 2, Kampung ITERA",
+    "hargaRataRata": 5000,
+    "jamBuka": "12.00-18.00",
+    "deskripsi": "Cilok kenyal disiram bumbu kacang pedas yang nempel di tusuknya."
+  },
+  {
+    "id": "12",
+    "judul": "Getuk Goreng Kampung Way Bungur",
+    "kategori": "Jajanan",
+    "alamat": "Jl. Tiga No. 28, Kampung ITERA",
+    "hargaRataRata": 7000,
+    "jamBuka": "08.00-16.00",
+    "deskripsi": "Singkong goreng isi cokelat dan keju, hangat pas baru digoreng."
   }
 ]
